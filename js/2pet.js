@@ -53,7 +53,7 @@ if (parseInt(ServUsed) < parseInt(WPBAL)) {
             var P1 = "Looking at "+PName+"'s plan, as $"+ServUsed+" of services were used and the plan costs $"+WPBAL+", we can close for the lesser of the two amounts being the cost of the plan. We then subtract the $"+InstallPaid+" of installments paid, which leaves the cost to close today of $"+CxlCost2+". This can either be paid today or over the remaining "+q+" installments before the plan expires on "+EndDate+".";
 
             var note = "-adv $"+CxlCost2+" per WP BAL for "+PName+" ";      
-            var Ending = "The $"+CxlCost2+" for "+PName;           
+            var Ending = " $"+CxlCost2+" for "+PName;           
     }       
  
     
