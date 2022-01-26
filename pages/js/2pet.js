@@ -102,6 +102,6 @@ document.getElementById("Pet1").innerHTML = P1;
 document.getElementById("Pet2").innerHTML = P2;
 document.getElementById("result").innerHTML = result;
 document.getElementById("note2").innerHTML = note+note2;
-document.getElementById("Ending").innerHTML = "The "+Ending+" and "+Ending2+" can either be processed today to close, or we can let the monthly installments lower the balance over time. Which option do you prefer?";
+document.getElementById("Ending").innerHTML = " "+Ending+" and "+Ending2+" can either be processed today to close, or we can let the monthly installments lower the balance over time. Which option do you prefer?";
 
 }
