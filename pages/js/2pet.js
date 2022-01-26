@@ -53,7 +53,7 @@ if (parseInt(ServUsed) < parseInt(WPBAL)) {
             var P1 = "Looking at "+PName+"'s plan, as $"+ServUsed+" of services were used and the plan costs $"+WPBAL+", we can close for the lesser of the two amounts being the cost of the plan. We then subtract the $"+InstallPaid+" of installments paid, which leaves the cost to close today of $"+CxlCost2+". This can either be paid today or over the remaining "+q+" installments before the plan expires on "+EndDate+".";
 
             var note = "-adv $"+CxlCost2+" per WP BAL for "+PName+" ";      
-            var Ending = "The $"+CxlCost2+" for "+PName;           
+            var Ending = " $"+CxlCost2+" for "+PName;           
     }       
  
     
@@ -102,6 +102,6 @@ document.getElementById("Pet1").innerHTML = P1;
 document.getElementById("Pet2").innerHTML = P2;
 document.getElementById("result").innerHTML = result;
 document.getElementById("note2").innerHTML = note+note2;
-document.getElementById("Ending").innerHTML = " "+Ending+" and "+Ending2+" can either be processed today to close, or we can let the monthly installments lower the balance over time. Which option do you prefer?";
+document.getElementById("Ending").innerHTML = "The "+Ending+" and "+Ending2+" can either be processed today to close, or we can let the monthly installments lower the balance over time. Which option do you prefer?";
 
 }
